@@ -356,58 +356,32 @@ Text GLabel 6050 7200 0    60   Input ~ 0
 OSC32_OUT
 Wire Wire Line
 	7550 6200 7050 6200
-Text Label 1200 2700 0    60   ~ 0
+Text Label 1150 3200 0    60   ~ 0
 PA0
-Text Label 1200 2800 0    60   ~ 0
+Text Label 1150 3300 0    60   ~ 0
 PA1
-Text Label 1200 2900 0    60   ~ 0
+Text Label 1150 3400 0    60   ~ 0
 PA2
-Text Label 1200 3000 0    60   ~ 0
+Text Label 1150 3500 0    60   ~ 0
 PA3
-Text Label 1200 3100 0    60   ~ 0
+Text Label 1150 3600 0    60   ~ 0
 PA4
-Text Label 1200 3200 0    60   ~ 0
+Text Label 1150 3700 0    60   ~ 0
 PA5
-Text Label 1200 3300 0    60   ~ 0
+Text Label 1150 3800 0    60   ~ 0
 PA6
-Text Label 1200 3400 0    60   ~ 0
+Text Label 1150 3900 0    60   ~ 0
 PA7
-Text Label 1200 3500 0    60   ~ 0
+Text Label 3050 4000 2    60   ~ 0
 PA8
-Text Label 1200 3600 0    60   ~ 0
+Text Label 3050 3900 2    60   ~ 0
 PA9
-Text Label 1200 3700 0    60   ~ 0
+Text Label 3050 3800 2    60   ~ 0
 PA10
-Text Label 1200 3800 0    60   ~ 0
+Text Label 3050 3700 2    60   ~ 0
 PA11
-Text Label 1200 3900 0    60   ~ 0
+Text Label 3050 3600 2    60   ~ 0
 PA12
-Wire Wire Line
-	1200 3900 1500 3900
-Wire Wire Line
-	1200 3800 1500 3800
-Wire Wire Line
-	1200 3700 1500 3700
-Wire Wire Line
-	1200 3600 1500 3600
-Wire Wire Line
-	1200 3500 1500 3500
-Wire Wire Line
-	1200 3400 1500 3400
-Wire Wire Line
-	1200 3300 1500 3300
-Wire Wire Line
-	1500 3200 1200 3200
-Wire Wire Line
-	1200 3100 1500 3100
-Wire Wire Line
-	1200 3000 1500 3000
-Wire Wire Line
-	1200 2900 1500 2900
-Wire Wire Line
-	1200 2800 1500 2800
-Wire Wire Line
-	1200 2700 1500 2700
 Text Label 6200 3700 0    60   ~ 0
 PA15
 Wire Wire Line
@@ -464,10 +438,8 @@ Wire Wire Line
 	6200 2300 6500 2300
 Wire Wire Line
 	6200 2200 6500 2200
-Text Label 1200 4000 0    60   ~ 0
+Text Label 3050 3500 2    60   ~ 0
 PA15
-Wire Wire Line
-	1200 4000 1500 4000
 Text Label 8800 2200 2    60   ~ 0
 PB0
 Text Label 8800 2300 2    60   ~ 0
@@ -530,66 +502,36 @@ Wire Wire Line
 	8450 3600 8800 3600
 Wire Wire Line
 	8450 3700 8800 3700
-Text Label 3000 2500 2    60   ~ 0
+Text Label 1150 4200 0    60   ~ 0
 PB0
-Text Label 3000 2600 2    60   ~ 0
+Text Label 1150 4300 0    60   ~ 0
 PB1
-Text Label 3000 2700 2    60   ~ 0
+Text Label 1150 4400 0    60   ~ 0
 PB2
-Wire Wire Line
-	2650 2500 3000 2500
-Wire Wire Line
-	2650 2600 3000 2600
-Wire Wire Line
-	2650 2700 3000 2700
-Text Label 3000 2800 2    60   ~ 0
+Text Label 3050 3000 2    60   ~ 0
 PB4
-Text Label 3000 2900 2    60   ~ 0
+Text Label 3050 2900 2    60   ~ 0
 PB5
-Text Label 3000 3000 2    60   ~ 0
+Text Label 3050 2800 2    60   ~ 0
 PB6
-Text Label 3000 3100 2    60   ~ 0
+Text Label 3050 2700 2    60   ~ 0
 PB7
-Text Label 3000 3200 2    60   ~ 0
+Text Label 3050 2600 2    60   ~ 0
 PB8
-Wire Wire Line
-	2650 2800 3000 2800
-Wire Wire Line
-	2650 2900 3000 2900
-Wire Wire Line
-	2650 3000 3000 3000
-Wire Wire Line
-	2650 3100 3000 3100
-Wire Wire Line
-	3000 3200 2650 3200
-Text Label 3000 3300 2    60   ~ 0
+Text Label 3050 2500 2    60   ~ 0
 PB9
-Text Label 3000 3400 2    60   ~ 0
+Text Label 1150 4500 0    60   ~ 0
 PB10
-Text Label 3000 3500 2    60   ~ 0
+Text Label 1150 4600 0    60   ~ 0
 PB11
-Text Label 3000 3600 2    60   ~ 0
+Text Label 1150 4700 0    60   ~ 0
 PB12
-Text Label 3000 3700 2    60   ~ 0
+Text Label 3050 4700 2    60   ~ 0
 PB13
-Text Label 3000 3800 2    60   ~ 0
+Text Label 3050 4600 2    60   ~ 0
 PB14
-Text Label 3000 3900 2    60   ~ 0
+Text Label 3050 4500 2    60   ~ 0
 PB15
-Wire Wire Line
-	2650 3300 3000 3300
-Wire Wire Line
-	2650 3400 3000 3400
-Wire Wire Line
-	2650 3500 3000 3500
-Wire Wire Line
-	2650 3600 3000 3600
-Wire Wire Line
-	2650 3700 3000 3700
-Wire Wire Line
-	2650 3800 3000 3800
-Wire Wire Line
-	2650 3900 3000 3900
 Wire Wire Line
 	5350 4400 6500 4400
 Connection ~ 5600 4400
@@ -649,65 +591,40 @@ Text Label 8800 4200 2    60   ~ 0
 PC3
 Wire Wire Line
 	8450 4200 8800 4200
-Text Label 1200 4100 0    60   ~ 0
+Text Label 1150 2800 0    60   ~ 0
 PC0
-Text Label 1200 4200 0    60   ~ 0
+Text Label 1150 2900 0    60   ~ 0
 PC1
-Text Label 1200 4300 0    60   ~ 0
+Text Label 1150 3000 0    60   ~ 0
 PC2
-Text Label 1200 4500 0    60   ~ 0
+Text Label 1150 4000 0    60   ~ 0
 PC4
-Text Label 1200 4600 0    60   ~ 0
+Text Label 1150 4100 0    60   ~ 0
 PC5
-Text Label 1200 4700 0    60   ~ 0
+Text Label 3050 4400 2    60   ~ 0
 PC6
-Text Label 3000 4000 2    60   ~ 0
+Text Label 3050 4300 2    60   ~ 0
 PC7
-Text Label 3000 4100 2    60   ~ 0
+Text Label 3050 4200 2    60   ~ 0
 PC8
-Wire Wire Line
-	2650 4000 3000 4000
-Wire Wire Line
-	3000 4100 2650 4100
-Text Label 3000 4200 2    60   ~ 0
+Text Label 3050 4100 2    60   ~ 0
 PC9
-Text Label 3000 4300 2    60   ~ 0
+Text Label 3050 3400 2    60   ~ 0
 PC10
-Text Label 3000 4400 2    60   ~ 0
+Text Label 3050 3300 2    60   ~ 0
 PC11
-Text Label 3000 4500 2    60   ~ 0
+Text Label 3050 3200 2    60   ~ 0
 PC12
-Text Label 3000 4600 2    60   ~ 0
+Text Label 1150 2700 0    60   ~ 0
 PC13
-Wire Wire Line
-	2650 4200 3000 4200
-Wire Wire Line
-	2650 4300 3000 4300
-Wire Wire Line
-	2650 4400 3000 4400
-Wire Wire Line
-	2650 4500 3000 4500
-Wire Wire Line
-	2650 4600 3000 4600
-Text Label 1200 4400 0    60   ~ 0
+Text Label 1150 3100 0    60   ~ 0
 PC3
 Text Label 6200 3900 0    60   ~ 0
 PD2
 Wire Wire Line
 	6200 3900 6500 3900
-Text Label 3000 4700 2    60   ~ 0
+Text Label 3050 3100 2    60   ~ 0
 PD2
-$Comp
-L Earth #PWR013
-U 1 1 5803DE21
-P 900 2650
-F 0 "#PWR013" H 900 2400 50  0001 C CNN
-F 1 "Earth" H 900 2500 50  0001 C CNN
-F 2 "" H 900 2650 50  0000 C CNN
-F 3 "" H 900 2650 50  0000 C CNN
-	1    900  2650
-	1    0    0    -1  
-$EndComp
 $Comp
 L VDD #PWR014
 U 1 1 5803DE79
@@ -741,22 +658,6 @@ F 3 "" H 2450 3600 50  0000 C CNN
 	1    2450 3600
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	1200 4700 1500 4700
-Wire Wire Line
-	1200 4100 1500 4100
-Wire Wire Line
-	1200 4200 1500 4200
-Wire Wire Line
-	1200 4300 1500 4300
-Wire Wire Line
-	1500 4400 1200 4400
-Wire Wire Line
-	1200 4500 1500 4500
-Wire Wire Line
-	1500 4600 1200 4600
-Wire Wire Line
-	3000 4700 2650 4700
 Text GLabel 3700 1400 0    60   Input ~ 0
 BOOT0
 $Comp
@@ -887,4 +788,55 @@ Wire Wire Line
 	900  2650 900  2600
 Wire Wire Line
 	900  2600 1500 2600
+$Comp
+L Earth #PWR?
+U 1 1 5803D0EB
+P 900 2650
+F 0 "#PWR?" H 900 2400 50  0001 C CNN
+F 1 "Earth" H 900 2500 50  0001 C CNN
+F 2 "" H 900 2650 50  0000 C CNN
+F 3 "" H 900 2650 50  0000 C CNN
+	1    900  2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2700 1500 2700
+Wire Wire Line
+	1500 2800 1150 2800
+Wire Wire Line
+	1150 2900 1500 2900
+Wire Wire Line
+	1150 3000 1500 3000
+Wire Wire Line
+	1500 3100 1150 3100
+Wire Wire Line
+	1150 3200 1500 3200
+Wire Wire Line
+	1500 3300 1150 3300
+Wire Wire Line
+	1150 3400 1500 3400
+Wire Wire Line
+	1500 3500 1150 3500
+Wire Wire Line
+	1150 3600 1500 3600
+Wire Wire Line
+	1500 3700 1150 3700
+Wire Wire Line
+	1150 3800 1500 3800
+Wire Wire Line
+	1150 3900 1500 3900
+Wire Wire Line
+	1150 4000 1500 4000
+Wire Wire Line
+	1150 4100 1500 4100
+Wire Wire Line
+	1150 4200 1500 4200
+Wire Wire Line
+	1500 4300 1150 4300
+Wire Wire Line
+	1150 4500 1500 4500
+Wire Wire Line
+	1150 4600 1500 4600
+Wire Wire Line
+	1500 4700 1150 4700
 $EndSCHEMATC
