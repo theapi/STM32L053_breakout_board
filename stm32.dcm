@@ -4,4 +4,8 @@ $CMP VDDA
 K POWER, PWR
 $ENDCMP
 #
+$CMP VLCD
+K POWER, PWR
+$ENDCMP
+#
 #End Doc Library
