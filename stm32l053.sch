@@ -188,17 +188,6 @@ F 3 "" H 6200 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR012
-U 1 1 58023F0F
-P 4250 1900
-F 0 "#PWR012" H 4250 1750 50  0001 C CNN
-F 1 "VDD" H 4250 2050 50  0000 C CNN
-F 2 "" H 4250 1900 50  0000 C CNN
-F 3 "" H 4250 1900 50  0000 C CNN
-	1    4250 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_01X25 P2
 U 1 1 580250B1
 P 7950 3200
@@ -311,23 +300,23 @@ Wire Wire Line
 	5550 950  5550 1100
 Text Notes 5200 700  0    60   ~ 12
 Absolute max of 3.6v
-Text GLabel 6500 2300 2    60   Input ~ 12
+Text GLabel 6500 2300 2    60   Input ~ 0
 SWO
 Wire Wire Line
 	6500 2300 6200 2300
-Text GLabel 3750 3400 0    60   Input ~ 12
+Text GLabel 4150 3400 0    60   Input ~ 0
 SWCLK
-Text GLabel 4150 3300 0    60   Input ~ 12
+Text GLabel 4150 3300 0    60   Input ~ 0
 SWDIO
 Wire Wire Line
 	4250 3300 4150 3300
 Wire Wire Line
-	3750 3400 4250 3400
-Text GLabel 6550 4200 2    60   Input ~ 12
+	4150 3400 4250 3400
+Text GLabel 6550 4200 2    60   Input ~ 0
 NRST
 Wire Wire Line
 	6550 4200 6200 4200
-Text GLabel 6550 4850 2    60   Input ~ 12
+Text GLabel 6550 4850 2    60   Input ~ 0
 MCO
 Wire Wire Line
 	6550 4850 6200 4850
@@ -359,4 +348,49 @@ Wire Wire Line
 	6500 5000 6500 4950
 Wire Wire Line
 	6500 4950 6200 4950
+Wire Wire Line
+	6200 4300 6200 4400
+$Comp
+L CONN_01X06 P?
+U 1 1 58036840
+P 1550 1800
+F 0 "P?" H 1550 2150 50  0000 C CNN
+F 1 "SWD" V 1650 1800 50  0000 C CNN
+F 2 "" H 1550 1800 50  0000 C CNN
+F 3 "" H 1550 1800 50  0000 C CNN
+	1    1550 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Earth #PWR?
+U 1 1 580369A9
+P 2250 1750
+F 0 "#PWR?" H 2250 1500 50  0001 C CNN
+F 1 "Earth" H 2250 1600 50  0001 C CNN
+F 2 "" H 2250 1750 50  0000 C CNN
+F 3 "" H 2250 1750 50  0000 C CNN
+	1    2250 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 1750 1750 1750
+Text GLabel 1750 1650 2    60   Input ~ 0
+SWCLK
+Text GLabel 1750 1850 2    60   Input ~ 0
+SWDIO
+Text GLabel 1750 1950 2    60   Input ~ 0
+NRST
+Text GLabel 1750 2050 2    60   Input ~ 0
+SWO
+$Comp
+L VDD #PWR?
+U 1 1 5803734F
+P 1750 1550
+F 0 "#PWR?" H 1750 1400 50  0001 C CNN
+F 1 "VDD" H 1750 1700 50  0000 C CNN
+F 2 "" H 1750 1550 50  0000 C CNN
+F 3 "" H 1750 1550 50  0000 C CNN
+	1    1750 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
