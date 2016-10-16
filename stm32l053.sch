@@ -243,7 +243,7 @@ Wire Wire Line
 	7800 1150 7800 1300
 Text Notes 7450 900  0    60   ~ 12
 Absolute max of 3.6v
-Text GLabel 8450 2500 2    60   Input ~ 0
+Text GLabel 8950 2500 2    60   Input ~ 0
 SWO
 Text GLabel 6150 3600 0    60   Input ~ 0
 SWCLK
@@ -426,7 +426,7 @@ L CONN_01X14 P?
 U 1 1 58039C59
 P 1700 3150
 F 0 "P?" H 1700 3900 50  0000 C CNN
-F 1 "PA" V 1800 3150 50  0000 C CNN
+F 1 "CN_PA" V 1800 3150 50  0000 C CNN
 F 2 "" H 1700 3150 50  0000 C CNN
 F 3 "" H 1700 3150 50  0000 C CNN
 	1    1700 3150
@@ -488,4 +488,137 @@ Text Label 1200 3800 0    60   ~ 0
 PA15
 Wire Wire Line
 	1200 3800 1500 3800
+Text Label 8800 2200 2    60   ~ 0
+PB0
+Text Label 8800 2300 2    60   ~ 0
+PB1
+Text Label 8800 2400 2    60   ~ 0
+PB2
+Wire Wire Line
+	8450 2200 8800 2200
+Wire Wire Line
+	8450 2300 8800 2300
+Wire Wire Line
+	8450 2400 8800 2400
+Text Label 8800 2600 2    60   ~ 0
+PB4
+Text Label 8800 2700 2    60   ~ 0
+PB5
+Text Label 8800 2800 2    60   ~ 0
+PB6
+Text Label 8800 2900 2    60   ~ 0
+PB7
+Text Label 8800 3000 2    60   ~ 0
+PB8
+Wire Wire Line
+	8450 2500 8950 2500
+Wire Wire Line
+	8450 2600 8800 2600
+Wire Wire Line
+	8450 2700 8800 2700
+Wire Wire Line
+	8450 2800 8800 2800
+Wire Wire Line
+	8450 2900 8800 2900
+Wire Wire Line
+	8800 3000 8450 3000
+Text Label 8800 3100 2    60   ~ 0
+PB9
+Text Label 8800 3200 2    60   ~ 0
+PB10
+Text Label 8800 3300 2    60   ~ 0
+PB11
+Text Label 8800 3400 2    60   ~ 0
+PB12
+Text Label 8800 3500 2    60   ~ 0
+PB13
+Text Label 8800 3600 2    60   ~ 0
+PB14
+Text Label 8800 3700 2    60   ~ 0
+PB15
+Wire Wire Line
+	8450 3100 8800 3100
+Wire Wire Line
+	8450 3200 8800 3200
+Wire Wire Line
+	8450 3300 8800 3300
+Wire Wire Line
+	8450 3400 8800 3400
+Wire Wire Line
+	8450 3500 8800 3500
+Wire Wire Line
+	8450 3600 8800 3600
+Wire Wire Line
+	8450 3700 8800 3700
+$Comp
+L CONN_01X15 P?
+U 1 1 5803B06C
+P 2450 3200
+F 0 "P?" H 2450 4000 50  0000 C CNN
+F 1 "CN_PB" V 2550 3200 50  0000 C CNN
+F 2 "" H 2450 3200 50  0000 C CNN
+F 3 "" H 2450 3200 50  0000 C CNN
+	1    2450 3200
+	-1   0    0    -1  
+$EndComp
+Text Label 3000 2500 2    60   ~ 0
+PB0
+Text Label 3000 2600 2    60   ~ 0
+PB1
+Text Label 3000 2700 2    60   ~ 0
+PB2
+Wire Wire Line
+	2650 2500 3000 2500
+Wire Wire Line
+	2650 2600 3000 2600
+Wire Wire Line
+	2650 2700 3000 2700
+Text Label 3000 2800 2    60   ~ 0
+PB4
+Text Label 3000 2900 2    60   ~ 0
+PB5
+Text Label 3000 3000 2    60   ~ 0
+PB6
+Text Label 3000 3100 2    60   ~ 0
+PB7
+Text Label 3000 3200 2    60   ~ 0
+PB8
+Wire Wire Line
+	2650 2800 3000 2800
+Wire Wire Line
+	2650 2900 3000 2900
+Wire Wire Line
+	2650 3000 3000 3000
+Wire Wire Line
+	2650 3100 3000 3100
+Wire Wire Line
+	3000 3200 2650 3200
+Text Label 3000 3300 2    60   ~ 0
+PB9
+Text Label 3000 3400 2    60   ~ 0
+PB10
+Text Label 3000 3500 2    60   ~ 0
+PB11
+Text Label 3000 3600 2    60   ~ 0
+PB12
+Text Label 3000 3700 2    60   ~ 0
+PB13
+Text Label 3000 3800 2    60   ~ 0
+PB14
+Text Label 3000 3900 2    60   ~ 0
+PB15
+Wire Wire Line
+	2650 3300 3000 3300
+Wire Wire Line
+	2650 3400 3000 3400
+Wire Wire Line
+	2650 3500 3000 3500
+Wire Wire Line
+	2650 3600 3000 3600
+Wire Wire Line
+	2650 3700 3000 3700
+Wire Wire Line
+	2650 3800 3000 3800
+Wire Wire Line
+	2650 3900 3000 3900
 $EndSCHEMATC
